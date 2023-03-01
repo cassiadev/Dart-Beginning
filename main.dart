@@ -60,7 +60,7 @@ void main() { // Dart는 필히 main()을 찾아다닌다
 
   var name11 = 'cass';
   var age2 = 14;
-  // String interpolation(文字列補間). 계산 작업을 할 때는 중괄호(curly bracket)이 필요함
+  // String interpolation(文字列補間). 연산 작업을 할 때는 중괄호(curly bracket)이 필요함
   // 문자열을 작은따옴표르 감쌌을 때에는, 감싸이지 않는 작은따옴표의 표기를 위해선 이스케이프 문자를 넣으면 됨
   var greeting = 'Helo everyone, my name is $name11 and I\'m ${age2 + 1} years old.';
   print(greeting);
